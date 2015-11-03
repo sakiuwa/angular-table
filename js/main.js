@@ -1,7 +1,5 @@
 // Create an angular application called "sortApp"
 var sortApp = angular.module('sortApp', []);
-//I don't really get the syntax here... why do we put in in the brackets too?
-//app or sortApp???
 
 // Define a controller "mainController" for you application, 
 // making sure to pass in both the $scope and $http variables
@@ -12,5 +10,7 @@ sortApp.controller('mainController', function($scope, $http) {
 		$scope.data = response.data;
 	});
 });
+
+$
 
 	
